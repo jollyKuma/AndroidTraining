@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dollosojap.androidtrainingapp.Activity2Bv2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText android:id="@+id/text_date2"
+            android:background="@drawable/corner"
+            android:ems="10"
+            android:hint="12-5-2014"
+            android:inputType="date"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView android:id="@+id/imageView6"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/text_date2"
+            android:layout_toRightOf="@+id/text_date2"
+            android:layout_toEndOf="@+id/text_date2" />
+
+        <EditText android:id="@+id/text_todo2"
+            android:background="@drawable/corner"
+            android:ems="10"
+            android:hint="Create Todo"
+            android:inputType="textMultiLine"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/text_date2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/imageView6"
+            android:layout_alignEnd="@+id/imageView6" />
+
+        <Button android:id="@+id/btnAdd2"
+            android:background="@drawable/bottoncorner"
+            android:text="+"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/text_todo2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ListView android:id="@+id/todoListView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text_todo2"
+            android:layout_marginBottom="30dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

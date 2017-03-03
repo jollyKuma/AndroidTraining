@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sprobe Lt</string>
+    <string name="header"></string>
+    <string name="footer">Sprobe Inc.</string>
+    <string name="footerComplete">Sprobe Inc. &#169; 2016</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="successText">Registration Successful!</string>
+    <string name="registerText">Register</string>
+    <string name="loginText">Login</string>
+    <string name="signUpText">Sign Up</string>
+    <string name="dashboardText">Dashboard</string>
+    <string name="aboutText">About</string>
+    <string name="passwordText">Password</string>
+    <string name="confirmPasswordText">Confirm Password</string>
+</resources>

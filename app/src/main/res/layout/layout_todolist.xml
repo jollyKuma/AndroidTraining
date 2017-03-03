@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp">
+
+        <ImageView android:id="@+id/imageClock2"
+            android:src="@drawable/clock"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView android:id="@+id/textViewTodo2"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageClock2"
+            android:layout_toEndOf="@+id/imageClock2" />
+
+        <TextView android:id="@+id/textViewDate2"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTodo2"
+            android:layout_toRightOf="@+id/imageClock2"
+            android:layout_toEndOf="@+id/imageClock2" />
+        <Button android:id="@+id/btnRemove"
+            android:text="x"
+            android:textColor="#fff"
+            android:background="@drawable/circlebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="?android:attr/buttonStyleSmall" />
+    </RelativeLayout>
+</LinearLayout>
